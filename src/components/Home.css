@@ -1,0 +1,31 @@
+.con{
+    height: 80vh;
+    width: 100vw;
+}
+.box1{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+.img1{
+    height: 80vh;
+    width: 40vw;
+    background: url('../../public/abhay.jpg') center center/cover no-repeat;
+    border-radius: 50px;
+    margin: 30px 10px;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+}
+.text1{
+    height: 80vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}

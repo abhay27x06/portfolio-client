@@ -1,0 +1,23 @@
+.Logo{
+    font-size: 25px !important;
+    text-decoration: none;
+    color: black;
+}
+.Logo:hover{
+    color: black;
+}
+.Navbar{
+    box-shadow: 1px 1px 3px black;
+}
+.navtext{
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.49);
+    padding: 10px;
+}
+.navtext:hover{
+    color: black;
+}
+.active{
+    color: black !important;
+}
