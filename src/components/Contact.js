@@ -18,7 +18,7 @@ const Contact=()=>{
             window.alert('Please Enter Valid Data');
             return;
         }
-        const res=await axios.post('http://localhost:4000', {
+        const res=await axios.post('https://abhayport.onrender.com', {
             name: user.name,
             email: user.email,
             message: user.message
